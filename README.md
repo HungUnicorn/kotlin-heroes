@@ -2,7 +2,7 @@
 
 https://www.jetbrains.com/promo/kotlin-heroes/
 
-Run the code in kotlin script
+Run and assert the code in kotlin script
 
 ### Useful ways for reading parameters
 ```kotlin
