@@ -23,11 +23,11 @@ fun display(n: Long): String {
 }
 
 fun main() {
-//    val t = readInt()
-//    for (i in 1..t) {
-//        var n = readLn().toLong()
-//        println(display(n))
-//    }
+    val t = readInt()
+    for (i in 1..t) {
+        var n = readLn().toLong()
+        println(display(n))
+    }
     assert()
 }
 
@@ -55,10 +55,7 @@ fun assert() {
 
     assertTrue { display(999999) == "1M" }
 
-
     assertTrue { display(1_000_998) == "1M" }
     assertTrue { display(1_900_998) == "2M" }
     assertTrue { display(4_1234_000_000) == "2000M" }
-
-
 }
